@@ -1,0 +1,269 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Maissa Ben Mefteh</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">go back to top page </a>
+					</header>
+					
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">ABOUT ME</a></li>
+							<li class="active"><a href="generic.html"> PROJECTS</a></li>
+							<li><a href="elements.html">ACHIEVEMENTS </a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.facebook.com/maissa.b.mefteh/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/mayssa-bm" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/maissa-ben-mefteh/" class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
+							<li><a href="#" class="icon brands fa-medium"><span class="label">medium</span></a></li>
+						</ul>
+					</nav>
+
+					<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+						
+
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<span class="date">July 2021</span>
+										<h2><a href="#">Build a Jenkins pipeline <br/> ( Build, Push, Deploy )</h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/jenkins-pipeline.jpg" alt="" /></a>
+									<p>pushing code to a Github  branch will trigger a Jenkins pipeline. Jenkins pulls that code from git, runs commands to build it & run unit tests, then builds a docker image, tags it with a version, stores that image in a Docker Hub repository, and then deploys it to k8s cluster using Ansible roles..</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/mayssa-bm/CICD-pipeline" class="button">Github repository</a></li>
+									</ul>
+								</article>
+								
+								
+								<article>
+									<header>
+										<span class="date">June 2021</span>
+										<h2><a href="#">Automate Deployment of  a 3-tier application in Openstack <br/>  </a></h2>
+										<h4>( Terraform + Ansible )</h4>
+									</header>
+									<a href="#" class="image fit"><img src="images/pfa.PNG" alt="" /></a>
+									<p>an application that automates the orchestration and configuration of a multi-tier infrastructure.</br>
+									   a graphical interface is presented to the user with the following functionalities:</br>
+									   
+									   <b>Compute functionality</b>: customize a multi-tier architecture by adding, modifying, or removing VMs.</br>
+									   <b>Network functionality</b>: Automate network management (Adding the necessary network devices, as well as the allocation of IP addresses)</br>
+									   <b>The Storage functionality</b>: the "scaling" of VMs by attaching volume blocks and storage blocks</br>
+                                       <b>Security functionality</b>: Addition of Security Groups and security rules in order to be able to guarantee the infrastructure and carry out a health check in order to detect vulnerabilities.</p>
+									  
+									<ul class="actions special">
+										<li><a href="https://docs.google.com/presentation/d/1HUq7LxJlLoqq4tnOU3bad1_BkxOS9msvwyMi6HwCJqI/edit?usp=sharing" class="button"> Presentation</a></li>
+										<li><a href="https://github.com/mayssa-bm/pfa-openstack" class="button"> GitHub repository</a></li>
+										<li><a href="https://docs.google.com/document/d/1UiuP_xQYveMwKSVE6Q_QohGTbbke5a01O6GUpRp7uFc/edit?usp=sharing" class="button"> Final Report</a></li>
+									</ul>
+								</article>
+
+								<article>
+									<header>
+										<span class="date">July 2021</span>
+										<h2><a href="#">k8s cluster with Grafana,Loki and Prometheus stack </a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/projet.png" alt="" /></a>
+									<p>an application is dockernized ans deployed to a kubernetes cluster with (grafana, Loki and Prometheus) </br>
+									  In case of an alert, Loki sends a webhook to Jenkins triggering a new Job
+			                        </p>
+									  
+									<ul class="actions special">
+										<li><a href="https://github.com/mayssa-bm/k8s-CICD/tree/master/loki" class="button"> GitHub repository</a></li>
+										
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">may 2021</span>
+										<h2><a href="#">Create an AWS ECS with Terraform</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/ecs.png" alt="" /></a>
+									<p>created a VPC (Virtual Private Cloud) which will contain an Autoscaling group with EC2 instances. ECS(Amazon Elastic Container Service) will manage the task that will take place on the EC2 instance based on Docker images stored in ECR (Elastic Container Registry).</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/mayssa-bm/ecs-terraform" class="button"> Github repository</a></li>
+									</ul>
+								</article>
+
+								<article>
+									<header>
+										<span class="date">mars 2021</span>
+										<h2><a href="#">Build an AKS in Azure with Terraform</h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/akst.PNG" alt="" /></a>
+									<p>Building an Azure pipeline that deploys a python application to AKS using Azure DevOps , ACR and terraform.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/mayssa-bm/AKS-pipeline/blob/master/pipelines/azure-pipeline.yml" class="button"> Github repository</a></li>
+									</ul>
+								</article>
+
+
+								<article>
+									<header>
+										<span class="date">Jan 2021</span>
+										<h2><a href="#">Build and deploy an API with Azure DevOps</h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/ad.PNG" alt="" /></a>
+									<p> using Azure DevOps to test,build and deploy a simple web API.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/mayssa-bm/Azure-API" class="button"> Github repository</a></li>
+									</ul>
+								</article>
+
+								<article>
+									<header>
+										<span class="date">Jan 2021</span>
+										<h2><a href="#">Azure Services API</h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/as.png" alt="" /></a>
+									<p>Built an API that has a description of Azure services .</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/mayssa-bm/Azure-containers-API" class="button"> Github repository</a></li>
+									</ul>
+								</article>
+
+								<article>
+									<header>
+										<span class="date">Jan 2021</span>
+										<h2><a href="#"> API Generator application </h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/fp.png" alt="" /></a>
+									<p>a simple Flask application that generates random APIs for test use.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/mayssa-bm/api-generator-tests" class="button"> Github repository</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">Jan 2021</span>
+										<h2><a href="#">HA Jenkins in AWS with Terraform</h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/haj.jpg" alt="" /></a>
+									<p>set up a HA jenkins master in AWS with terraform.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/mayssa-bm/HA-Jenkins-AWS" class="button"> Github repository</a></li>
+									</ul>
+								</article>
+
+
+								<article>
+									<header>
+										<span class="date">Nov 2020</span>
+										<h2><a href="#">terraform templates to build and ECS cluster in AWS</h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/ecst.PNG" alt="" /></a>
+									<p>the repository contains terraform template files for alb,ECR,IAM roles, VPC, subnets ... to build ECS clusters 	.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/mayssa-bm/ECS-terraform-templates" class="button"> Github repository</a></li>
+									</ul>
+								</article>
+
+
+								<article>
+									<header>
+										<span class="date">mars 2020</span>
+										<h2><a href="#">URL Scanner</h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/urlscanner.PNG" alt="" /></a>
+									<p>1- URL Scanner scans a website's URL and determines if it is vulnerable to SQL Injection or Cross Site Scripting (XSS)
+
+										2- URL Scanner offers the site's HTTP Header while scanning</br>
+
+										3- URL Scanner offers tips how to protect your website against many attacks</br>
+
+										4- URL Scanner enables the user to view history of the scans performed and so to view a list of vulnerable websites	.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/mayssa-bm/url-scanner" class="button"> Github repository</a></li>
+									</ul>
+								</article>
+								
+							
+							</section>
+
+					 	<!-- Footer -->
+							<!--<footer>
+								<div class="pagination">
+									<!--<a href="#" class="previous">Prev</a>
+									<a href="#" class="page active">1</a>
+									<a href="#" class="page">2</a>
+									<a href="#" class="page">3</a>
+									<span class="extra">&hellip;</span>
+									<a href="#" class="page">8</a>
+									<a href="#" class="page">9</a>
+									<a href="#" class="page">10</a>
+									<a href="#" class="next">Next</a>
+								</div>
+							</footer>-->
+
+					</div>
+
+
+				<!-- Footer -->
+							<!-- Footer -->
+					<footer id="footer">
+						
+						<section class="split contact">
+							
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">mayssabenmefteh@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									
+									<li><a href="https://www.facebook.com/maissa.b.mefteh/" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="https://www.instagram.com/maissa_bm_/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://github.com/mayssa-bm" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.linkedin.com/in/maissa-ben-mefteh/" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
+									
+								</ul>
+							</section>
+						</section>
+						
+					</footer>
+					<footer id="header">
+						<a href="generic.html" class="logo"> ⬆ </a>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
