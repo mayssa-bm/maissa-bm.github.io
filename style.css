@@ -1,0 +1,37 @@
+:root{--bg:#0d1117;--surface:#161b22;--border:#21262d;--border-strong:#30363d;--text:#c9d1d9;--strong:#e6edf3;--muted:#8b949e;--accent:#3fb950;--link:#58a6ff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.7 Inter,system-ui,sans-serif;min-height:100vh;display:flex;flex-direction:column}
+a{color:var(--link)}
+a:hover{color:var(--strong)}
+.mono{font-family:"JetBrains Mono",ui-monospace,monospace}
+.wrap{max-width:760px;margin:0 auto;padding:0 24px;width:100%}
+header.site{border-bottom:1px solid var(--border)}
+header.site .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px;padding-top:16px;padding-bottom:16px}
+.brand{font:700 15px "JetBrains Mono",monospace;color:var(--strong);text-decoration:none;padding:12px 0}
+nav{display:flex;gap:24px}
+nav a{font:14px "JetBrains Mono",monospace;color:var(--muted);text-decoration:none;padding:12px 4px}
+nav a.current{color:var(--accent)}
+nav a:hover{color:var(--strong)}
+main{flex:1;padding-top:56px;padding-bottom:56px;display:flex;flex-direction:column;gap:32px}
+h1{margin:0;font:700 32px/1.2 "JetBrains Mono",monospace;color:var(--strong)}
+h2{margin:0;font-size:22px;color:var(--strong)}
+p{margin:0}
+.muted{color:var(--muted)}
+.intro{display:flex;flex-direction:column;gap:12px}
+.posts{display:flex;flex-direction:column;gap:28px}
+.post{display:flex;flex-direction:column;gap:6px;padding-bottom:28px;border-bottom:1px solid var(--border)}
+.post .title{font-size:24px;font-weight:600;line-height:1.3;color:var(--strong);text-decoration:none}
+.post .title:hover{color:var(--accent)}
+.meta{font:13px "JetBrains Mono",monospace;color:var(--muted)}
+.more,.back{font:14px "JetBrains Mono",monospace;text-decoration:none}
+.more{color:var(--accent)}
+.back{color:var(--muted)}
+.project{display:flex;flex-direction:column;gap:4px;padding-bottom:20px;border-bottom:1px solid var(--border)}
+.project a{font:700 16px "JetBrains Mono",monospace;text-decoration:none}
+article.full h1{font-size:36px}
+article.full{display:flex;flex-direction:column;gap:32px}
+pre{margin:0;background:var(--surface);border:1px solid var(--border-strong);border-radius:8px;padding:16px 20px;overflow-x:auto;font:14px/1.6 "JetBrains Mono",monospace;color:var(--text)}
+code{font-family:"JetBrains Mono",monospace;font-size:.9em}
+.tags{font:14px "JetBrains Mono",monospace;color:var(--muted);border-top:1px solid var(--border);padding-top:24px}
+footer.site{border-top:1px solid var(--border);padding:24px;text-align:center;font:13px "JetBrains Mono",monospace;color:var(--muted)}
+footer.site a{color:var(--muted)}
